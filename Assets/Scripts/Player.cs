@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(SpriteRenderer))]
-public class PlayerScript : MonoBehaviour
+public class Player : MonoBehaviour
 {
     public float SPEED = 5f;
     public Rigidbody2D _rbody;
